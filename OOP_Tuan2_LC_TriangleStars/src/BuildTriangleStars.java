@@ -1,14 +1,14 @@
 public class BuildTriangleStars {
-    int iHeight;
+    int Height;
 
-    public void setiHeight(int iHeight) {
-        this.iHeight = iHeight;
+    public void setHeight(int Height) {
+        this.Height = Height;
     }
 
     public void DisplayTriangleStars(){
-            for(int i=0;i<=iHeight;i++)
+            for(int i=0;i<=Height;i++)
         {
-            for(int j=1;j<=iHeight - i;j++)
+            for(int j=1;j<=Height - i;j++)
                 System.out.print(" ");
             for(int j=1;j<=2*i-1;j++)
                 System.out.print("*");
